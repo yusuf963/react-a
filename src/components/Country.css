@@ -1,0 +1,54 @@
+.counties-container{
+  max-width: 90vw;
+  display: grid;
+  grid-template-columns:25% 25% 25%;
+  grid-column-gap: 1vw;
+  justify-content:center;
+  margin: 200px auto;
+}
+.country-card{
+  padding: 10px 0px;
+  margin-top:20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  }
+
+.country-img{
+  width: 250px;
+  height: auto;
+}
+/* hover */
+.country-card:hover{
+  background: rgb(27, 21, 21);
+  transform: translateY(0);
+  transition: 0.8s;
+  opacity: 1;
+  color:white
+}
+
+/* { 
+  margin: 0;
+  padding: 0;
+  background-color: #666666;
+  box-sizing: border-box;
+}
+/* flex box for the header */
+/* .container{
+  margin-top: 3%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ select{
+ height: 40px;
+ background-color:whitesmoke;
+ outline-style: none;
+}
+
+#search-bar{
+background-color: whitesmoke;
+padding:10px 10px;
+width: 40%;
+outline-style: none;
+}   */
