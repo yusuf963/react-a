@@ -1,0 +1,25 @@
+.header{
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  height: 75px;
+  background-color:#0089BA;
+  position:sticky 
+}
+
+ul{
+  display: flex;
+}
+a{
+  padding-left: 30px;
+  padding-top: 10px;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;  
+  font-size: 22px;
+
+}
+
+.logo{
+  cursor: pointer;
+}
