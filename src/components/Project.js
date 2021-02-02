@@ -1,38 +1,22 @@
 import React from 'react'
-import { useState } from 'react'
-import './Project.css'
+import { HashRouter } from 'react-router-dom'
 
-const Project = () => {
-  const [quote, updateQuote] = useState({})
-  const fetchingData = async () => {
-    const proxyUrl = 'https://stormy-atoll-29846.herokuapp.com/'
-    const apiUrl = 'https://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=json'
+//import subComponent
+import Quote from './Quote'
 
-    try {
-      const res = await fetch(proxyUrl + apiUrl)
-      const data = await res.json()
-      updateQuote(data)
-    } catch (e) {
-      console.log(e)
-    }
-  }
-  return (
-    <><div className="parent-div">
-      <div className="quote-container">
-        <div className="quote-text">
-          <i className="fas fa-quote-left"></i>
-          <span>{quote.quoteText}</span>
-        </div>
-        <div className="quote-author">
-          <span>{quote.quoteAuthor}</span>
-        </div>
-        <div className="button-container">
-          <button className='new-quote' onClick={() => fetchingData()}>Click me</button>
-        </div>
-      </div>
-    </div>
-    </>
+const SubNav = ()=>{
+  return(
+    
   )
 }
 
-export default Project
+const Projects = () => {
+  return (
+    <HashRouter>
+      <Quote />
+    </HashRouter>
+
+  )
+}
+
+export default Projects
