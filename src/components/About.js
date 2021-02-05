@@ -1,11 +1,13 @@
 import React from 'react'
-import img from '../asset/Img1.png'
+import Footer from './Footer'
+import './About.css'
 
 const About = () => {
   return (
     <>
-    <img src={img} alt="image" />
-    <h1>jvhbuev</h1>
+      <div className="about-container">
+      <Footer/>
+      </div>
     </>
 
 

@@ -1,10 +1,13 @@
 import React from 'react'
-import Img from '../asset/img2.png'
+import Footer from './Footer'
+import './Home.css'
 
 const Home = () => {
   return (
     <>
-      <img src={Img} style={{ height: '90vh' }} alt="image" />
+      <div className="hero-home">
+        <Footer />
+      </div>
     </>
   )
 }

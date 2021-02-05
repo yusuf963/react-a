@@ -3,12 +3,11 @@ import { useState, useEffect } from 'react'
 import axios from 'axios'
 import './Country.css'
 
-
-
 const Country = () => {
   const [countries, updateCountries] = useState([])
   const [region, updateRegion] = useState('All')
   const [search, updateSearch] = useState('')
+  
   useEffect(() => {
     const fetchingData = async () => {
       const res = await axios.get('https://restcountries.eu/rest/v2/all')
@@ -24,6 +23,10 @@ const Country = () => {
         && country.name.toLowerCase().includes(search.toLocaleLowerCase())
     })
   }
+  //game logic
+  // const cardPicker = () => {
+  //   return countiers[Math.floor(Math.random() * countiers.length)]
+  // }
 
   return (
     <>
@@ -36,8 +39,13 @@ const Country = () => {
           <option >Europe</option>
           <option >Oceania</option>
         </select>
-        <input placeholder="Search by country name" onKeyUp={(e) => updateSearch(e.target.value)}></input>
+        <input className='search-bar' placeholder="Search by country name" onKeyUp={(e) => updateSearch(e.target.value)}></input>
       </div>
+      {/* game Container */}
+      {/* <div className='game-container'>
+        <p className='game-instruction'>by clicking on the button below you can sart a game</p>
+        <button className='start-game'>Start</button>
+      </div> */}
       <div className='counties-container'>
         {selectingRegion().map((country, index) => {
           return (

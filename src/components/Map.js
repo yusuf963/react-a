@@ -1,12 +1,11 @@
 import React from 'react'
 import ReactMapGL from 'react-map-gl'
 import css from 'mapbox-gl/dist/mapbox-gl.css'
-import mapImg from '../asset/map.png'
 
 
 function Map() {
   const [viewport, setViewport] = React.useState({
-    width: '70vw',
+    width: '88vw',
     height: '70vh',
     latitude: 51.5167,
     longitude: -0.05,
@@ -14,8 +13,7 @@ function Map() {
   })
   return (
     <>
-      <div style={{ width: '80vw', height: '70vh', display: 'flex', justifyContent: 'center', borderRadius: '20px', boxShadow: '0 8px 6px -6px black', margin: 'auto', marginTop: '70px' }}>
-        {/* <img src={mapImg} alt='map' /> */}
+      <div className="map-container" style={{ width: '93vw', height: '80vh', display: 'flex', justifyContent: 'center', borderRadius: '20px', margin: '100px auto 0 auto ', boxShadow: '0 5px 8px -2px black' }}>
         <ReactMapGL
           {...viewport}
           onViewportChange={(viewport) => setViewport(viewport)}

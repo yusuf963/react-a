@@ -7,12 +7,18 @@ const Nav = () => {
   return (
     <header className="header">
       <>
-        <Link to="/"><img src={image} style={{ width: '70px', height: '50px' }} alt='logo' /></Link>
+        <img className='logo-nav' src={image} alt='logo' />
         <ul>
-          <Link to="/">Home</Link>
-          <Link to="/project">Projects</Link>
-          <Link to="/map">Map</Link>
-          <Link to="/about">About</Link>
+          <div className='my-container'>
+            <a className='my-design' href="https://yusuf-portfolio.netlify.app/" target="_blank" rel="noreferrer">M.Y Design</a>
+          </div>
+
+          <Link className='link' to="/">Home</Link>
+          <Link className='link' to="/project">Projects</Link>
+          <Link className='link' to="/map">Map</Link>
+          <Link className='link' to="/country">Country API</Link>
+          <Link className='link' to="/tvshow">Tv Show API</Link>
+          <Link className='link' to="/about">About</Link>
         </ul>
       </>
     </header>
