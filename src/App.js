@@ -1,6 +1,6 @@
 // importing libraries
 import React from 'react'
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import { HashRouter, Route, Switch } from 'react-router-dom'
 
 //importing componenet
 import Nav from './components/Nav'
@@ -17,17 +17,17 @@ import TvShow from './components/TvShow'
 const App = () => {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Nav />
         <Switch>
-          <Map exact path='/map' />
           <Route exact path='/' ><Home /></Route>
-          <Route exact path='/project'><Project /></Route>
-          <Route exact path='/about'><About /></Route>
-          <Route exact path='/country'><Country /></Route>
-          <Route exact path='/tvshow'><TvShow /></Route>
+          <Route exact path='/react-a/project'><Project /></Route>
+          <Route exact path='/react-a/about'><About /></Route>
+          <Map exact path='/react-a/map' />
+          <Route exact path='/react-a/country'><Country /></Route>
+          <Route exact path='/react-a/tvshow'><TvShow /></Route>
         </Switch>
-      </BrowserRouter>
+      </HashRouter>
     </>
   )
 

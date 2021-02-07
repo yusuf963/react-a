@@ -10,15 +10,15 @@ const Nav = () => {
         <img className='logo-nav' src={image} alt='logo' />
         <ul>
           <div className='my-container'>
-            <a className='my-design' href="https://yusuf-portfolio.netlify.app/" target="_blank" rel="noreferrer">M.Y Design</a>
+            <a className='my-design' href="https://yusuf-portfolio.netlify.app/" target='_blank' rel="noreferrer">M.Y Design</a>
           </div>
 
           <Link className='link' to="/">Home</Link>
-          <Link className='link' to="/project">Projects</Link>
-          <Link className='link' to="/map">Map</Link>
-          <Link className='link' to="/country">Country API</Link>
-          <Link className='link' to="/tvshow">Tv Show API</Link>
-          <Link className='link' to="/about">About</Link>
+          <Link className='link' to="/react-a/project">Projects</Link>
+          <Link className='link' to="/react-a/map">Map</Link>
+          <Link className='link' to="/react-a/country">Country API</Link>
+          <Link className='link' to="/react-a/tvshow">Tv Show API</Link>
+          <Link className='link' to="/react-a/about">About</Link>
         </ul>
       </>
     </header>

@@ -1,6 +1,7 @@
 import React from 'react'
 import { HashRouter } from 'react-router-dom'
 
+
 //import subComponent
 import Quote from './Quote'
 
@@ -33,8 +34,8 @@ const SubNav = () => {
       </section>
       <section className="about"><Quote /></section>
       <section style={{ maxHeight: '100wh' }} className="skills"><h1></h1></section>
-      <section className="projects"><h1>These Are My Results</h1></section>
-      <section className="contact"><h1>Available Anytime</h1></section>
+      <section className="projects"><h1></h1></section>
+      <section className="contact"><h1></h1></section>
     </>
 
   )
