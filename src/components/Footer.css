@@ -11,3 +11,10 @@
   color: white;
   background:#0081CF
 }
+
+@media only screen and (max-width: 600px){
+  .footer-container{
+    font-size:12px;
+  }
+
+}

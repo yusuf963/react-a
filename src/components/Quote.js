@@ -21,7 +21,7 @@ const Quote = () => {
       updateQuote(data)
       setLoading(false)
     } catch (e) {
-       fetchingData()
+      fetchingData()
       console.log(e)
     }
   }
@@ -39,7 +39,6 @@ const Quote = () => {
         </div>
         <div className="button-container">
           <button className='new-quote' onClick={() =>  fetchingData()}>Click me</button>
-         
         </div>
       </div>
 

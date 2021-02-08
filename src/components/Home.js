@@ -8,7 +8,7 @@ const Home = () => {
 
       <div className="hero-home">
         <div className='home-paragraph-container'>
-          <p className='home-paragraph'>Hi, I professionally connected with the web development industry<br></br> information technology  and <small>-you know what-</small> the entire computer.<br></br><br></br> Organized and  problem solver, with high attention to detail,<br></br>Full-Stack developer and fan of ReactJS...<br></br><br></br>
+          <p className='home-paragraph'>Hi, I professionally connected with the web development industry<br></br> information technology  and <small>-you know what-</small> with the entire computer.<br></br><br></br> Organized and  problem solver, with high attention to detail,<br></br>Full-Stack developer and fan of ReactJS...<br></br><br></br>
          If there is any new technology, I am the first one<br></br> of the team to grasp it, not only because of learning fast,<br></br>  but also to teach it to the rest<br></br> of the team as I have teaching skills and I really injoy it<br></br><br></br><p className='partof'>I value simple content structure<br></br> clean design patterns<br></br> thoughtful interactions<br></br>and good user experience</p></p>
     
        

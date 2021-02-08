@@ -7,48 +7,24 @@
   background-position:  center;
 }
 .home-paragraph-container{
-
+display: flex;
+justify-content:flex-end;
 }
+
 .home-paragraph{
   text-align:center;
-  /* padding-right:20px ; */
   font-size:24px;
-  letter-spacing:5px;
-  position: fixed;
-  right:40px;
-  top:130px;
-  
-  /* background-color: rgba(126, 126, 126, 0.6); */
+  letter-spacing:1px;
+  /* position: fixed; */
+  /* right:40px; */
+  /* top:130px; */
+  margin: 70px 70px 0px 0px ;
   padding: 20px 50px; 
   border-radius:20px;
   color: black;
   box-shadow: 0 5px 8px -2px black ;
- 
 }
-.side-paragraph{
-  text-align:center;
-  /* padding-right:20px ; */
-  font-size:24px;
-  letter-spacing:5px;
 
-  position: fixed;
-  left:10px;
-  top:130px;
-  background-color: rgba(21, 30, 156, 0.6);
-  padding: 30px 50px; 
-  border-radius:20px;
-  color: #fff;
-}
-.partof{
-  /* background-color: rgba(0, 4, 248, 0.3); */
-  width:400px;
-  margin: 0 auto;
-  border-radius:20px;
-  padding: 30px 50px;
-  font-weight: bold;
-  /* color:white; */
-  /* opacity: 0.3; */
-}
 
 @media only screen and (max-width:600px){
   .hero-home{
@@ -58,5 +34,9 @@
     margin-top: 10%;
     height:100vh;
     background-position:  center;
+  }
+  .home-paragraph{
+    font-size:14px;
+    margin: 30px auto;
   }
 }
