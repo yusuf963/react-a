@@ -10,7 +10,7 @@ const Nav = () => {
         <img className='logo-nav' src={image} alt='logo' />
         <ul>
           <div className='my-container'>
-            <a className='my-design' href="https://yusuf-portfolio.netlify.app/" target='_blank' rel="noreferrer">M.Y Design</a>
+            <a className='my-design' href="https://yusuf-portfolio.netlify.app/" target='_blank' rel="noreferrer">M.Y Portfolio</a>
           </div>
 
           <Link className='link' to="/">Home</Link>

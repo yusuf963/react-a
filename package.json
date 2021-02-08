@@ -12,7 +12,7 @@
     "deploy": "gh-pages -d build"
   },
   "author": "",
-  "license": "ISC",
+  "license": "ISC", 
   "devDependencies": {
     "@babel/core": "^7.10.2",
     "@babel/plugin-transform-runtime": "^7.10.1",
