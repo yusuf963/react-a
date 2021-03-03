@@ -16,7 +16,9 @@
   padding: 20px 20px; 
   margin:198px 20px 0px 0px;
   border-radius:20px;
-  color: black;
+background-color: rgba(100, 100, 100, 0.9);
+
+  color: white;
   box-shadow: 0 5px 8px -2px black ;
   text-align: center;
 }
